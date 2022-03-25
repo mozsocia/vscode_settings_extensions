@@ -1,0 +1,40 @@
+{
+    "name": "moz-theme-bluloco-light",
+    "displayName": "moz-theme-bluloco-light",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "mozdalif",
+    "repository": "https://github",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "moz-github-light-moz",
+                "uiTheme": "vs",
+                "path": "./themes/github-light-moz.json"
+            },
+            {
+                "label": "moz-theme-bluloco-light-v2-hard22v2",
+                "uiTheme": "vs",
+                "path": "./themes/bluloco-light-v2-hard22v2.json"
+            },
+            {
+                "label": "moz-theme-bluloco-light-v2-hard22",
+                "uiTheme": "vs",
+                "path": "./themes/bluloco-light-v2-hard22.json"
+            },
+            {
+                "label": "moz-theme-bluloco-light-v2-hard22v3",
+                "uiTheme": "vs",
+                "path": "./themes/bluloco-light-v2-hard22v3.json"
+            }
+            
+            
+        ]
+    }
+}

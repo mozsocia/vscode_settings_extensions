@@ -1,0 +1,35 @@
+// {
+            //     "label": "moz-theme-bluloco-light-v2-hard3_dart",
+            //     "uiTheme": "vs",
+            //     "path": "./themes/bluloco-light-v2-hard3_dart.json"
+            // },
+            // {
+            //     "label": "moz-theme-bluloco-light-v2-hard4",
+            //     "uiTheme": "vs",
+            //     "path": "./themes/bluloco-light-v2-hard4.json"
+            // },
+            // {
+            //     "label": "moz-theme-bluloco-light-v2-hard3",
+            //     "uiTheme": "vs",
+            //     "path": "./themes/bluloco-light-v2-hard3.json"
+            // },
+            // {
+            //     "label": "moz-theme-bluloco-light-v2-hard2",
+            //     "uiTheme": "vs",
+            //     "path": "./themes/bluloco-light-v2-hard2.json"
+            // },
+            // {
+            //     "label": "moz-theme-bluloco-light-v2-hard1",
+            //     "uiTheme": "vs",
+            //     "path": "./themes/bluloco-light-v2-hard1.json"
+            // },
+            // {
+            //     "label": "moz-theme-bluloco-light-v2",
+            //     "uiTheme": "vs",
+            //     "path": "./themes/bluloco-light-v2.json"
+            // },
+            // {
+            //     "label": "moz-theme-bluloco-light",
+            //     "uiTheme": "vs",
+            //     "path": "./themes/bluloco-light.json"
+            // }
