@@ -1,0 +1,54 @@
+{
+	// Place your snippets for php here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"Print to wp": {
+		"prefix": "wp_pr",
+		"body": [
+			"echo \"<pre>\";",
+			"print_r(${1:example});",
+			"echo \"</pre>\";"
+		],
+		"description": "Log output to wordpress"
+	},
+	"multi comment": {
+		"prefix": "mcom",
+		"body": [
+			"/*",
+			"${1:....}",
+			"*/"
+		],
+		"description": "Log output to wordpress"
+	},
+	"arrow": {
+		"prefix": "-.",
+		"body": [
+			"->"
+		],
+		"description": "Log output to wordpress"
+	},
+	"fat arrow": {
+		"prefix": "=.",
+		"body": [
+			"=>"
+		],
+		"description": "Log output to wordpress"
+	},
+	"php tag": {
+		"prefix": "<?",
+		"body": [
+			"<?php ${1:...} ?>"
+		],
+		"description": "Log output to wordpress"
+	}
+}
