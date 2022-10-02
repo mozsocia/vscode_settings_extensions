@@ -1,0 +1,26 @@
+{
+    "name": "moz-one-dark",
+    "displayName": "moz-one-dark",
+    "description": "atom one dark copy",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "moz-one-dark2",
+                "uiTheme": "vs-dark",
+                "path": "./themes/moz-one-dark-color-theme2.json"
+            },
+            {
+                "label": "moz-one-dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/moz-one-dark-color-theme.json"
+            }
+        ]
+    }
+}
