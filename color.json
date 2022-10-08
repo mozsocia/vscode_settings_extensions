@@ -1,0 +1,9 @@
+{
+    "$schema": "vscode://schemas/color-theme",
+    "colors": {
+        "debugConsole.errorForeground": "#6b6d00",
+        "yellowsGreeen.": "#6b6d00",
+        "normalStringGreen": "#067D17",
+        "bluesGreen": "#006475"
+    }
+}

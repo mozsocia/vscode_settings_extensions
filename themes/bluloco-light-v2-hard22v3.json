@@ -449,7 +449,7 @@
         {
             "name": "Variables",
             "scope": [
-                "variable",
+                // "variable",
                 "source.elixir.embedded.source",
                 "string source.groovy",
                 "string meta.embedded.line.ruby"
@@ -477,7 +477,7 @@
             "scope": [
                 "support.class",
                 "entity.name.class",
-                "entity.name.type.class",
+                // "entity.name.type.class",
                 "meta.class.instance",
                 "meta.class.inheritance",
                 "entity.other.inherited-class",
@@ -511,7 +511,9 @@
         {
             "name": "Strings, Inherited Class",
             "scope": [
-                "string",
+                // "string",
+                "string.quoted.single",
+                "string.quoted.double",
                 "punctuation.definition.string",
                 "support.constant.property-value",
                 "string.quoted.double.shell",
@@ -519,7 +521,7 @@
                 "storage.type.string"
             ],
             "settings": {
-                "foreground": "#0c9c22"
+                "foreground": "#067D17"
             }
         },
         {
@@ -793,12 +795,12 @@
         {
             "name": "Variable Parameter",
             "scope": [
-                "variable.parameter",
+                // "variable.parameter",
                 "parameter.variable.function.elixir",
                 "variable.other.block.ruby"
             ],
             "settings": {
-                "foreground": "#40B8C5"
+                "foreground": "#27acbb"
             }
         },
         {
@@ -916,7 +918,7 @@
             "scope": [
                 "support.class",
                 "entity.name.class",
-                "entity.name.type.class",
+                // "entity.name.type.class",
                 "meta.class.instance",
                 "meta.class.inheritance",
                 "entity.other.inherited-class",
@@ -939,15 +941,15 @@
                 "foreground": "#107a45"
             }
         },
-        {
-            "name": "import statement",
-            "scope": [
-                "entity.name.type.class"
-            ],
-            "settings": {
-                "foreground": "#006475" // 951363 D33682 992d1f cc1845
-            }
-        },
+        // {
+        //     "name": "import statement",
+        //     "scope": [
+        //         "entity.name.type.class"
+        //     ],
+        //     "settings": {
+        //         "foreground": "#006475" // 951363 D33682 992d1f cc1845
+        //     }
+        // },
         {
             "name": "Object Properties",
             "scope": [
@@ -999,15 +1001,15 @@
                 "foreground": "#cec6c6"
             }
         },
-        {
-            "name": "HTML: Tags",
-            "scope": [
-                "string"
-            ],
-            "settings": {
-                "foreground": "#067D17" //908701
-            }
-        },
+        // {
+        //     "name": "HTML: Tags",
+        //     "scope": [
+        //         "string"
+        //     ],
+        //     "settings": {
+        //         "foreground": "#067D17" //908701
+        //     }
+        // },
         {
             "name": "HTML: Tags",
             "scope": [
@@ -1046,7 +1048,7 @@
             ],
             "settings": {
                 "foreground": "#5a3131", //{ "foreground": "#4b4b46" }
-                "fontStyle": "italic"
+                // "fontStyle": "italic"
             }
         },
         {
@@ -1083,7 +1085,7 @@
                 "variable.parameter",
             ],
             "settings": {
-                "foreground": "#861a73" // 951363 D33682
+                "foreground": "#612255" // 951363 D33682
             }
         },
         {
@@ -1163,15 +1165,15 @@
                 "foreground": "#0c699e", //4b4b46 133695 a82525 a85100 00a88c
             }
         },
-        {
-            "name": "HTML: Tags",
-            "scope": [
-                "entity.name.type.class",
-            ],
-            "settings": {
-                "foreground": "#6b6d00", //4b4b46 133695 a82525 a85100 00a88c
-            }
-        },
+        // {
+        //     "name": "HTML: Tags",
+        //     "scope": [
+        //         "entity.name.type.class",
+        //     ],
+        //     "settings": {
+        //         "foreground": "#6b6d00", //4b4b46 133695 a82525 a85100 00a88c
+        //     }
+        // },
         {
             "name": "HTML: Tags",
             "scope": [
@@ -1212,15 +1214,6 @@
         {
             "name": "HTML: Tags",
             "scope": [
-                "entity.name.type.class",
-            ],
-            "settings": {
-                "foreground": "#6b6d00", //4b4b46 133695 a82525 a85100 00a88c
-            }
-        },
-        {
-            "name": "HTML: Tags",
-            "scope": [
                 "entity.name.tag",
             ],
             "settings": {
@@ -1235,6 +1228,26 @@
             "settings": {
                 "foreground": "#bbb2b2", //4b4b46 133695 a82525
             }
-        }
+        },
+        //dart color
+        {
+            "name": "HTML: Tags",
+            "scope": [
+                "string.interpolated.single.dart",
+                "string.interpolated.double.dart"
+            ],
+            "settings": {
+                "foreground": "#6b6d00" //908701
+            }
+        },
+        {
+            "name": "import statement",
+            "scope": [
+                "entity.name.type.class"
+            ],
+            "settings": {
+                "foreground": "#067D17" // 951363 D33682 992d1f cc1845
+            }
+        }, //variable.parameter
     ]
 }
