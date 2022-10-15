@@ -796,7 +796,7 @@
         {
             "name": "Variable Parameter",
             "scope": [
-                "variable.parameter",
+                // "variable.parameter",
                 "parameter.variable.function.elixir",
                 "variable.other.block.ruby"
             ],
@@ -1085,7 +1085,7 @@
                 "variable.parameter",
             ],
             "settings": {
-                "foreground": "#861a73" // 951363 D33682
+                "foreground": "#4d464b" // 951363 D33682
             }
         },
         {

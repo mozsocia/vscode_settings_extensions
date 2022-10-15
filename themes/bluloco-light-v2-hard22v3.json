@@ -1082,10 +1082,19 @@
         {
             "name": "HTML: Tags",
             "scope": [
+                "source.dart",
+            ],
+            "settings": {
+                "foreground": "#534c52" // 951363 D33682
+            }
+        },
+        {
+            "name": "HTML: Tags",
+            "scope": [
                 "variable.parameter",
             ],
             "settings": {
-                "foreground": "#612255" // 951363 D33682
+                "foreground": "#5f2c57" // 951363 D33682
             }
         },
         {
