@@ -102,7 +102,7 @@
                 "entity.name.type"
             ],
             "settings": {
-                "foreground": "#d4ae6a"
+                "foreground": "#b19755"
             }
         },
         {
@@ -396,7 +396,7 @@
                 "support.class"
             ],
             "settings": {
-                "foreground": "#d4ae6a"
+                "foreground": "#b49b5d"
             }
         },
         {
@@ -442,7 +442,7 @@
                 "entity.name.type.class"
             ],
             "settings": {
-                "foreground": "#d4ae6a"
+                "foreground": "#b49b5d"
             }
         },
         {
