@@ -114,15 +114,15 @@
                 "foreground": "#d4ae6a"
             }
         },
-        {
-            "name": "Keyword",
-            "scope": [
-                "keyword"
-            ],
-            "settings": {
-                "foreground": "#C678DD"
-            }
-        },
+        // {
+        //     "name": "Keyword",
+        //     "scope": [
+        //         "keyword"
+        //     ],
+        //     "settings": {
+        //         "foreground": "#C678DD"
+        //     }
+        // },
         {
             "name": "Keyword Control",
             "scope": [
@@ -171,7 +171,7 @@
         {
             "name": "Storage Type Annotation,storage Type Primitive",
             "scope": [
-                "storage.type.annotation",
+                // "storage.type.annotation",
                 "storage.type.primitive"
             ],
             "settings": {
@@ -258,7 +258,7 @@
             ],
             "settings": {
                 "foreground": "#ABB2BF",
-                "fontStyle": "italic"
+                // "fontStyle": "italic"
             }
         },
         {
