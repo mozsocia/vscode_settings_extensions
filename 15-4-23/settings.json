@@ -1,0 +1,367 @@
+{
+    "typescript.validate.enable": false,
+    "workbench.tree.indent": 18,
+    "intelephense.diagnostics.undefinedMethods": false,
+    "intelephense.diagnostics.undefinedType": false,
+    "editor.fontFamily": "'Jetbrains Mono','Source Code Pro',Consolas,'Jetbrains Mono', 'Courier New', monospace",
+    "editor.lineHeight": 21,
+    "editor.fontLigatures": false,
+    "editor.suggestSelection": "first",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.lineHeight": 1.4,
+    "javascript.preferences.jsxAttributeCompletionStyle": "none",
+    "editor.parameterHints.enabled": false,
+    // "editor.parameterHints": false,
+    "breadcrumbs.enabled": false,
+    "workbench.editor.showTabs": true,
+    //
+    // ======================bracketPairColorization start ===========================================
+    "editor.bracketPairColorization.enabled": true,
+    "workbench.colorCustomizations": {
+      //light color
+      "editorBracketHighlight.foreground1": "#0d53ad", ////97041d
+      "editorBracketHighlight.foreground2": "#6f0185",
+      "editorBracketHighlight.foreground3": "#2f4f4f",
+      "editorBracketHighlight.foreground4": "#A0522D",
+      "editorBracketHighlight.foreground5": "#008000",
+      "editorBracketHighlight.foreground6": "#008080",
+      "editorBracketHighlight.unexpectedBracket.foreground": "#ff0000"
+      // //
+      // dark color
+      //
+      // "editorBracketHighlight.foreground1": "#c09bc7", ////97041d
+      // "editorBracketHighlight.foreground2": "#dab675", //dab675
+      // "editorBracketHighlight.foreground3": "#47acac",
+      // "editorBracketHighlight.foreground4": "#c2b3bd",
+      // "editorBracketHighlight.foreground5": "#cf7951",
+      // "editorBracketHighlight.foreground6": "#6784bb", //6784bb
+      // "editorBracketHighlight.unexpectedBracket.foreground": "#a4f3e0"
+    },
+    // "emmet.triggerExpansionOnTab": true,
+    // "emmet.showExpandedAbbreviation": "always",
+    // "html-css-class-completion.enableEmmetSupport": true,
+    // "emmet.syntaxProfiles": {
+    //     "php": "html"
+    // },
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "django-html": "html",
+      "blade": "html",
+      "php": "html",
+      "aspnetcorerazor": "html"
+    },
+    "tabnine.experimentalAutoImports": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features",
+      "editor.tabSize": 2
+    },
+  
+    //
+    // ======================php wordpress settings ==========================================
+    "intelephense.files.maxSize": 3000000,
+    "intelephense.stubs": [
+      "apache",
+      "bcmath",
+      "bz2",
+      "calendar",
+      "com_dotnet",
+      "Core",
+      "ctype",
+      "curl",
+      "date",
+      "dba",
+      "dom",
+      "enchant",
+      "exif",
+      "FFI",
+      "fileinfo",
+      "filter",
+      "fpm",
+      "ftp",
+      "gd",
+      "gettext",
+      "gmp",
+      "hash",
+      "iconv",
+      "imap",
+      "intl",
+      "json",
+      "ldap",
+      "libxml",
+      "mbstring",
+      "meta",
+      "mysqli",
+      "oci8",
+      "odbc",
+      "openssl",
+      "pcntl",
+      "pcre",
+      "PDO",
+      "pdo_ibm",
+      "pdo_mysql",
+      "pdo_pgsql",
+      "pdo_sqlite",
+      "pgsql",
+      "Phar",
+      "posix",
+      "pspell",
+      "readline",
+      "Reflection",
+      "session",
+      "shmop",
+      "SimpleXML",
+      "snmp",
+      "soap",
+      "sockets",
+      "sodium",
+      "SPL",
+      "sqlite3",
+      "standard",
+      "superglobals",
+      "sysvmsg",
+      "sysvsem",
+      "sysvshm",
+      "tidy",
+      "tokenizer",
+      "xml",
+      "xmlreader",
+      "xmlrpc",
+      "xmlwriter",
+      "xsl",
+      "Zend OPcache",
+      "zip",
+      "zlib",
+      "wordpress"
+    ],
+    //  ======================php wordpress settings End==========================================
+    //
+    "intelephense.files.exclude": [
+      "**/.git/**",
+      "**/.svn/**",
+      "**/.hg/**",
+      "**/CVS/**",
+      "**/.DS_Store/**",
+      "**/node_modules/**",
+      "**/bower_components/**",
+      "**/vendor/**/{Tests,tests}/**",
+      "**/.history/**"
+      // "**/vendorback/**/vendor/**"
+    ],
+    "intelephense.references.exclude": [
+      // "**/vendorback/**"
+    ],
+    "intelephense.rename.exclude": [
+      // "**/vendorback/**"
+    ],
+    //
+    // ======================editor tokenColorCustomizations========================================
+    //
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "name": "HTML: Tags",
+          "scope": [
+            "punctuation.section.embedded.begin.php",
+            "punctuation.section.embedded.end.php"
+          ],
+          "settings": {
+            "foreground": "#11a89c" //4b4b46 133695 a82525 a85100 00a88c
+          }
+        }
+        // {
+        //     "name": "HTML: Tags",
+        //     "scope": [
+        //         "support.class",
+        //     ],
+        //     "settings": {
+        //         "foreground": "#0c699e", //4b4b46 133695 a82525 a85100 00a88c
+        //     }
+        // },
+        // {
+        //     "name": "HTML: Tags",
+        //     "scope": [
+        //         "entity.name.type.class",
+        //     ],
+        //     "settings": {
+        //         "foreground": "#6b6d00", //4b4b46 133695 a82525 a85100 00a88c
+        //     }
+        // },
+        // {
+        //     "name": "HTML: Tags",
+        //     "scope": [
+        //         "entity.name.tag",
+        //     ],
+        //     "settings": {
+        //         "foreground": "#9e4d01", //4b4b46 133695 a82525 a85100 00a88c
+        //     }
+        // },
+        // {
+        //     "name": "HTML: Tags",
+        //     "scope": [
+        //         "comment",
+        //     ],
+        //     "settings": {
+        //         "foreground": "#bbb2b2", //4b4b46 133695 a82525
+        //     }
+        // },
+      ],
+      "[moz-one-dark2]": {
+        "textMateRules": [
+          {
+            "name": "lol",
+            "scope": ["meta.object-literal.key.js"],
+            "settings": {
+              "foreground": "#ABB2BF"
+            }
+          }
+        ]
+      }
+    },
+    //======================End editor tokenColorCustomizations========================================
+    // ======================Start  laravel settings========================================
+    //
+    // ======================End laravel settings========================================
+    //
+    "code-runner.runInTerminal": true,
+    "[php]": {
+      // "editor.defaultFormatter": "kokororin.vscode-phpfmt",
+      "editor.tabSize": 4,
+      "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+    },
+    "phpSniffer.run": "never",
+    "code-runner.ignoreSelection": true,
+    "code-runner.saveFileBeforeRun": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "phpConstructor.visibility": "public",
+    "react/jsx-first-prop-new-line": [1, "multiline"],
+    "react/jsx-max-props-per-line": [1, { "maximum": 1 }],
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features",
+      "editor.tabSize": 2
+  
+      // "editor.defaultFormatter": "NikolaosGeorgiou.html-fmt-vscode"
+      // "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "beautify.language": {
+      "js": {
+        "type": ["javascript", "json"],
+        "filename": [".jshintrc", ".jsbeautifyrc"]
+        // "ext": ["js", "json"]
+        // ^^ to set extensions to be beautified using the javascript beautifier
+      },
+      "css": ["css", "scss"],
+      "html": ["htm", "html"]
+      // ^^ providing just an array sets the VS Code file type
+    },
+    "bladeFormatter.format.indentSize": 2,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    // "emmet.excludeLanguages": [
+    //     "markdown",
+    //     "php"
+    // ],
+    "peacock.favoriteColors": [
+      {
+        "name": "Angular Red",
+        "value": "#dd0531"
+      },
+      {
+        "name": "Azure Blue",
+        "value": "#007fff"
+      },
+      {
+        "name": "JavaScript Yellow",
+        "value": "#f9e64f"
+      },
+      {
+        "name": "Mandalorian Blue",
+        "value": "#1857a4"
+      },
+      {
+        "name": "Node Green",
+        "value": "#215732"
+      },
+      {
+        "name": "React Blue",
+        "value": "#61dafb"
+      },
+      {
+        "name": "Something Different",
+        "value": "#832561"
+      },
+      {
+        "name": "Svelte Orange",
+        "value": "#ff3d00"
+      },
+      {
+        "name": "Vue Green",
+        "value": "#42b883"
+      },
+      {
+        "name": "new1",
+        "value": "#8c4959"
+      },
+      {
+        "name": "wsl",
+        "value": "#77216F"
+      }
+    ],
+    "window.menuBarVisibility": "compact",
+    "files.autoSave": "onWindowChange",
+    // "workbench.iconTheme": "Monokai Pro (Filter Spectrum) Icons",
+    "svelte.enable-ts-plugin": true,
+    "editor.wordWrap": "on",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": false,
+      "plaintext": true,
+      "markdown": false
+    },
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "prettier.bracketSameLine": true,
+    "[javascriptreact]": {
+      "editor.tabSize": 2,
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[dart]": {
+      "editor.formatOnSave": true,
+      "editor.formatOnType": true,
+      "editor.rulers": [80],
+      "editor.selectionHighlight": false,
+      "editor.suggest.snippetsPreventQuickSuggestions": false,
+      "editor.suggestSelection": "first",
+      "editor.tabCompletion": "onlySnippets",
+      "editor.wordBasedSuggestions": false
+    },
+    "dart.previewFlutterUiGuides": true,
+    "dart.previewFlutterUiGuidesCustomTracking": true,
+    "editor.fontSize": 13,
+    "workbench.colorTheme": "moz-theme-bluloco-light-v2-hard22v3",
+    "editor.accessibilitySupport": "off",
+    "workbench.editorAssociations": {
+      "*.sqlite": "sqlite-viewer.view",
+      "*.db": "sqlite-viewer.option"
+    },
+    "[python]": {
+      "editor.formatOnType": true
+    },
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "tailwindCSS.lint.cssConflict": "ignore",
+    "[markdown]": {
+      "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "gitlens.views.branches.branches.layout": "list"
+  
+  }
+  
