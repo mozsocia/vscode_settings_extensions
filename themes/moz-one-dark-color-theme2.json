@@ -126,10 +126,21 @@
         {
             "name": "Keyword Control",
             "scope": [
-                "keyword.control"
+                "keyword.control" 
             ],
             "settings": {
-                "foreground": "#c75a5a"
+                "foreground": "#C36C70"
+            }
+        },
+        {
+            "name": "Keyword Control conditional",
+            "scope": [
+                "keyword.control.conditional",
+                "keyword.control.loop"
+
+            ],
+            "settings": {
+                "foreground": "#C678DD"
             }
         },
         {
@@ -194,7 +205,7 @@
                 "constant"
             ],
             "settings": {
-                "foreground": "#D19A66"
+                "foreground": "#db903a"
             }
         },
         {
@@ -396,7 +407,7 @@
                 "support.class"
             ],
             "settings": {
-                "foreground": "#b49b5d"
+                "foreground": "#b49649"
             }
         },
         {
@@ -442,7 +453,7 @@
                 "entity.name.type.class"
             ],
             "settings": {
-                "foreground": "#b49b5d"
+                "foreground": "#c29c3b"
             }
         },
         {
@@ -1219,10 +1230,11 @@
             "scope": [
                 "variable.other.readwrite.js",
                 "variable.other.readwrite.ts",
-                "variable.other.readwrite.tsx"
+                "variable.other.readwrite.tsx",
+                "variable.other.property.js"
             ],
             "settings": {
-                "foreground": "#C36C70"
+                "foreground": "#b1b1b1"
             }
         },
         {
@@ -1477,7 +1489,7 @@
                 "variable.other.readwrite.alias.tsx"
             ],
             "settings": {
-                "foreground": "#C36C70"
+                "foreground": "#b9b5b6"
             }
         },
         {
@@ -2060,7 +2072,8 @@
                 "variable.language.this"
             ],
             "settings": {
-                "foreground": "#ABB2BF"
+                "foreground": "#949fa0",
+                "fontStyle": "italic"
             }
         },
         // {
