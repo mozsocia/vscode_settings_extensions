@@ -268,7 +268,7 @@
                 "variable.parameter"
             ],
             "settings": {
-                "foreground": "#ABB2BF",
+                "foreground": "#a8a46b",
                 // "fontStyle": "italic"
             }
         },
@@ -2072,7 +2072,7 @@
                 "variable.language.this"
             ],
             "settings": {
-                "foreground": "#949fa0",
+                "foreground": "#8d9899",
                 "fontStyle": "italic"
             }
         },
