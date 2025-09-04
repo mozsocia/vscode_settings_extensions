@@ -1,0 +1,85 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "files.autoSave": "onFocusChange",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "breadcrumbs.enabled": false,
+    "workbench.tree.enableStickyScroll": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "foreground": "#c3c2bf"
+                }
+            },
+            {
+                "scope": "comment.block",
+                "settings": {
+                    "foreground": "#c3c2bf"
+                }
+            },
+            {
+                "scope": "comment.block.documentation",
+                "settings": {
+                    "foreground": "#c3c2bf"
+                }
+            },
+            // DocBlock tags like @param, @return
+            {
+                "scope": "keyword.other.phpdoc",
+                "settings": {
+                    "foreground": "#c3c2bf" // Blue for @param, @return tags
+                }
+            },
+            {
+                "scope": "keyword.other.documentation",
+                "settings": {
+                    "foreground": "#c3c2bf" // Alternative scope for doc tags
+                }
+            },
+            // Parameter names in @param
+            {
+                "scope": "variable.parameter.documentation",
+                "settings": {
+                    "foreground": "#c3c2bf" // Keep your yellowish color
+                }
+            },
+            // Type annotations (int|null, string|null, Cart)
+            {
+                "scope": "storage.type.documentation",
+                "settings": {
+                    "foreground": "#c3c2bf" // Purple for types
+                }
+            },
+            {
+                "scope": "entity.name.type.documentation",
+                "settings": {
+                    "foreground": "#c3c2bf" // Alternative scope for types
+                }
+            },
+            // Union types (the | symbol)
+            {
+                "scope": "punctuation.separator.documentation",
+                "settings": {
+                    "foreground": "#c3c2bf" // Red for union separators
+                }
+            },
+            {
+                "scope": "comment.block.documentation.phpdoc",
+                "settings": {
+                    "foreground": "#c3c2bf"
+                }
+            }
+        ]
+    },
+    "workbench.colorCustomizations": {
+        "editor.background": "#f2f1eb",
+        "activityBar.background": "#e4e4e4", 
+        "sideBar.background": "#f1efe8",
+        "activityBar.foreground": "#fffefe",
+        // "sideBar.foreground": "#d0d0d0"    
+    },
+    "workbench.colorTheme": "Default Light Modern"
+}
