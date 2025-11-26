@@ -877,7 +877,7 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Comments",
             "scope": [
                 "comment",
                 "punctuation.definition.comment"
@@ -887,7 +887,7 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Strings",
             "scope": [
                 "string"
             ],
@@ -896,7 +896,7 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Functions",
             "scope": [
                 "entity.name.function",
             ],
@@ -905,7 +905,7 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Tags",
             "scope": [
                 "entity.name.tag",
             ],
@@ -914,7 +914,7 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Support Functions",
             "scope": [
                 "support.function"
             ],
@@ -923,7 +923,7 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Constants",
             "scope": [
                 "constant",
                 "variable.other.constant",
@@ -937,7 +937,7 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Tag Punctuation",
             "scope": [
                 "punctuation.definition.tag"
             ],
@@ -955,7 +955,7 @@
         //     }
         // },
         {
-            "name": "HTML: Tags",
+            "name": "Keywords & Storage",
             "scope": [
                 "storage.type",
                 "keyword"
@@ -965,7 +965,7 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Parameters",
             "scope": [
                 "variable.parameter",
             ],
@@ -996,7 +996,7 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Decorators",
             "scope": [
                 "entity.name.function.decorator",
                 "meta.function.decorator"
@@ -1006,7 +1006,7 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "PHP Modifiers",
             "scope": [
                 "storage.modifier.php"
             ],
@@ -1015,7 +1015,7 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Operators",
             "scope": [
                 "keyword.operator"
             ],
@@ -1024,7 +1024,7 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Variable Punctuation",
             "scope": [
                 "punctuation.definition.variable"
             ],
@@ -1033,7 +1033,7 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Support Classes",
             "scope": [
                 "support.class",
             ],
@@ -1042,7 +1042,7 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Support Classes",
             "scope": [
                 "support.class",
             ],
@@ -1051,7 +1051,7 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Tags",
             "scope": [
                 "entity.name.tag",
             ],
@@ -1060,7 +1060,7 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Comments",
             "scope": [
                 "comment",
             ],
@@ -1070,7 +1070,7 @@
         },
         // new color sssssssss-------------------------------------------------
         {
-            "name": "HTML: Tags",
+            "name": "Support Classes",
             "scope": [
                 "support.class",
             ],
@@ -1079,7 +1079,7 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Support Classes",
             "scope": [
                 "support.class",
             ],
@@ -1088,16 +1088,16 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Classes",
             "scope": [
                 "entity.name.type.class",
             ],
             "settings": {
-                "foreground": "#6b6d00", //4b4b46 133695 a82525 a85100 00a88c
+                "foreground": "#024161", //4b4b46 133695 a82525 a85100 00a88c
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Tags",
             "scope": [
                 "entity.name.tag",
             ],
@@ -1106,12 +1106,31 @@
             }
         },
         {
-            "name": "HTML: Tags",
+            "name": "Comments",
             "scope": [
                 "comment",
             ],
             "settings": {
                 "foreground": "#bbb2b2", //4b4b46 133695 a82525
+            }
+        },
+        {
+            "name": "HTML Tag Names Only",
+            "scope": "entity.name.tag.html",
+            "settings": {
+                "foreground": "#1d1d92" // Targeted HTML Tag Color
+            }
+        },
+        {
+            "name": "React Custom Components",
+            "scope": [
+                "support.class.component",
+                "support.class.component.js",
+                "support.class.component.tsx",
+                "entity.name.tag.custom"
+            ],
+            "settings": {
+                "foreground": "#0a6397"
             }
         }
     ]
