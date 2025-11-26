@@ -14,6 +14,12 @@
     "contributes": {
         "themes": [
             {
+                "id": "Default Light Modern moz",
+                "label": "Default Light Modern moz",
+                "uiTheme": "vs",
+                "path": "./themes/light_modern_moz.json"
+            },
+            {
                 "label": "moz-theme-bluloco-light-v2-hard22v3",
                 "uiTheme": "vs",
                 "path": "./themes/bluloco-light-v2-hard22v3.json"
@@ -51,7 +57,6 @@
     },
     "devDependencies": {
         "@vscode/vsce": "^3.4.2"
-
     },
     "dependencies": {
         "ignore": "^7.0.3"
