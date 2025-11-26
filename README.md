@@ -1,7 +1,11 @@
 ## two theme from moz-bluloco light
 ### compile the package
+
+
 ```
-vsce package
+npm i 
+
+npm run vsce-package
 ```
 
 

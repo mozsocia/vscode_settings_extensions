@@ -2,7 +2,7 @@
     "name": "moz-theme-bluloco-light",
     "displayName": "moz-theme-bluloco-light",
     "description": "",
-    "version": "0.0.1",
+    "version": "1.0.1",
     "publisher": "mozdalif",
     "repository": "https://github",
     "engines": {
@@ -44,5 +44,16 @@
                 "path": "./themes/bluloco-light-v2-hard22.json"
             }
         ]
+    },
+    "scripts": {
+        "vsce-package": "vsce package  --allow-missing-repository",
+        "vsce-publish": "vsce publish"
+    },
+    "devDependencies": {
+        "@vscode/vsce": "^3.4.2"
+
+    },
+    "dependencies": {
+        "ignore": "^7.0.3"
     }
 }
