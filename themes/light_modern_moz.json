@@ -19,13 +19,17 @@
         "chat.slashCommandBackground": "#ADCEFF7A",
         "chat.slashCommandForeground": "#26569E",
         "chat.editedFileForeground": "#895503",
-        "checkbox.background": "#F8F8F8",
         "checkbox.border": "#CECECE",
         "descriptionForeground": "#3B3B3B",
-        "dropdown.background": "#FFFFFF",
+        "dropdown.background": "#f2eee2",
+        "input.background": "#f2eee2",
+        "settings.dropdownBackground": "#f2eee2",
+        "checkbox.background": "#f2eee2",
         "dropdown.border": "#CECECE",
         "dropdown.foreground": "#3B3B3B",
         "dropdown.listBackground": "#FFFFFF",
+        "editor.selectionBackground": "#afaba15e",
+        "editor.selectionForeground": "#3B3B3B",
         "editor.foreground": "#3B3B3B",
         "editor.inactiveSelectionBackground": "#E5EBF1",
         "editor.selectionHighlightBackground": "#ADD6FF80",
@@ -37,13 +41,10 @@
         "editorLineNumber.activeForeground": "#171184",
         "editorLineNumber.foreground": "#6E7681",
         "editorOverviewRuler.border": "#E5E5E5",
-        "editorSuggestWidget.background": "#F8F8F8",
-        "editorWidget.background": "#F8F8F8",
         "errorForeground": "#F85149",
         "focusBorder": "#005FB8",
         "foreground": "#3B3B3B",
         "icon.foreground": "#3B3B3B",
-        "input.background": "#FFFFFF",
         "input.border": "#CECECE",
         "input.foreground": "#3B3B3B",
         "input.placeholderForeground": "#767676",
@@ -74,10 +75,27 @@
         "pickerGroup.foreground": "#8B949E",
         "ports.iconRunningProcessForeground": "#369432",
         "progressBar.background": "#005FB8",
-        "quickInput.background": "#F8F8F8",
+        // Quick Input (Ctrl+P, Ctrl+Shift+P)
+        "quickInput.background": "#e6e3d1",
         "quickInput.foreground": "#3B3B3B",
+        "quickInputTitle.background": "#d9d6c4",
+        "quickInputList.focusBackground": "#c2b8a452",
+        "quickInputList.focusForeground": "#3B3B3B",
+        "quickInputList.focusIconForeground": "#3B3B3B",
+        // Editor Widgets (hover, suggest, etc.)
+        "editorWidget.background": "#e6e3d1",
+        "editorWidget.foreground": "#3B3B3B",
+        "editorWidget.border": "#c2b69f",
+        "editorSuggestWidget.background": "#e6e3d1",
+        "editorSuggestWidget.border": "#c2b69f",
+        "editorSuggestWidget.foreground": "#3B3B3B",
+        "editorSuggestWidget.selectedBackground": "#c2b8a452",
+        "editorSuggestWidget.highlightForeground": "#005FB8",
+        // Hover Widget
+        "editorHoverWidget.background": "#e6e3d1",
+        "editorHoverWidget.border": "#c2b69f",
+        "editorHoverWidget.foreground": "#3B3B3B",
         "searchEditor.textInputBorder": "#CECECE",
-        "settings.dropdownBackground": "#FFFFFF",
         "settings.dropdownBorder": "#CECECE",
         "settings.headerForeground": "#1F1F1F",
         "settings.modifiedItemIndicator": "#BB800966",
@@ -126,12 +144,13 @@
         "editor.foldBackground": "#e4dfc47a",
         "editor.lineHighlightBackground": "#f0e7d962", //#f0e7d962
         "list.inactiveSelectionBackground": "#c2b8a452",
+        "menu.background": "#eeede5",
+        "menu.foreground": "#3B3B3B",
         "list.hoverBackground": "#c4b9af59",
         "tab.hoverBackground": "#c4b9af59",
         "list.activeSelectionBackground": "#afaba15e",
         "list.activeSelectionForeground": "#312b2bf8",
         // whole color change
-        "editorGutter.background": "#e6e3d1", // e6e3d1
         "inputValidation.errorBackground": "#e6e3d1",
         "inputValidation.infoBackground": "#e6e3d1",
         "inputValidation.warningBackground": "#e6e3d1",
@@ -150,6 +169,7 @@
         "tab.border": "#e6e4da",
         "tab.inactiveBackground": "#e6e3d1", //////////---------------------
         "editor.background": "#e6e3d1", ///faf8f2------------------------------------------
+        "editorGutter.background": "#e6e3d1", // e6e3d1
         "editor.findRangeHighlightBorder": "#e6e3d100",
         "panel.background": "#e6e3d1",
         "statusBar.background": "#e6e3d1", //////////---------------------
@@ -161,6 +181,24 @@
         "terminal.background": "#e6e3d1",
     },
     "tokenColors": [
+        {
+            "scope": [
+                "constant.character",
+                "constant.other.option"
+            ],
+            "settings": {
+                "foreground": "#1483b6"
+            }
+        },
+        {
+            "scope": [
+                "storage.modifier",
+                "keyword.operator.noexcept"
+            ],
+            "settings": {
+                "foreground": "#1483b6"
+            }
+        },
         {
             "name": "Control flow / Special keywords",
             "scope": [
@@ -294,12 +332,14 @@
             }
         },
         {
-            "name": "Variables",
+            "name": "Variables Constants and enums",
             "scope": [
                 "variable",
                 "source.elixir.embedded.source",
                 "string source.groovy",
-                "string meta.embedded.line.ruby"
+                "string meta.embedded.line.ruby",
+                "variable.other.constant",
+                "variable.other.enummember"
             ],
             "settings": {
                 "foreground": "#660000"
@@ -852,7 +892,7 @@
                 "string"
             ],
             "settings": {
-                "foreground": "#067D17" //908701
+                "foreground": "#2d7404" //908701
             }
         },
         {
@@ -1008,15 +1048,6 @@
             ],
             "settings": {
                 "foreground": "#0c699e", //4b4b46 133695 a82525 a85100 00a88c
-            }
-        },
-        {
-            "name": "HTML: Tags",
-            "scope": [
-                "entity.name.type.class",
-            ],
-            "settings": {
-                "foreground": "#6b6d00", //4b4b46 133695 a82525 a85100 00a88c
             }
         },
         {
