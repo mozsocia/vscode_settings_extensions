@@ -38,8 +38,8 @@
         "editorGutter.deletedBackground": "#F85149",
         "editorGutter.modifiedBackground": "#005FB8",
         "editorIndentGuide.background1": "#D3D3D3",
-        "editorLineNumber.activeForeground": "#171184",
-        "editorLineNumber.foreground": "#6E7681",
+        "editorLineNumber.activeForeground": "#6e7681de",
+        "editorLineNumber.foreground": "#6e768169",
         "editorOverviewRuler.border": "#E5E5E5",
         "errorForeground": "#F85149",
         "focusBorder": "#005FB8",
@@ -382,7 +382,7 @@
             "name": "Methods",
             "scope": "keyword.other.special-method",
             "settings": {
-                "foreground": "#23974a"
+                "foreground": "#177536"
             }
         },
         {
